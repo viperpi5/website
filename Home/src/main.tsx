@@ -7,7 +7,7 @@ import App from './App.tsx'
 createRoot(document.getElementById('root')!).render(
   <BrowserRouter>
     <Routes>
-      <Route path="/" element={<App />} />
+      <Route path="/website/" element={<App />} />
     </Routes>
   </BrowserRouter>
 )
