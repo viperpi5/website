@@ -41,6 +41,8 @@ jobs:
       - name: Build
         run: npm run build
         working-directory: ./Home
+      - name: Create .nojekyll
+        run: echo "" > ./Home/dist/.nojekyll
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
